@@ -14,6 +14,13 @@
     <style>
         .is-completed{
             text-decoration: line-through;
+            color: #999;
+        }
+        #content{
+            margin-top: 1.25em;
+        }
+        #modify-project{
+            margin: 1.25em;
         }
     </style>
 </head>
@@ -55,7 +62,7 @@
                 <a class="nav-item" href="/">
                     Home
                 </a>
-                <a class="nav-item" href="projects">
+                <a class="nav-item" href="/projects">
                     Projects
                 </a>
                 <a class="nav-item">
@@ -66,7 +73,7 @@
     </div>
 
 
-    <div class="container" id="content">
+    <div class="container is-fluid" id="content">
         @yield('content')
     </div>
 
