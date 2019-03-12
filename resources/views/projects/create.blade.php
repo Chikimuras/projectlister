@@ -4,7 +4,7 @@
 
 @section('content')
 
-<form method="POST" action="../projects">
+<form method="POST" action="/projects">
 
 {{ csrf_field() }}
 
@@ -26,16 +26,6 @@
 
 </form>
 
-@if($errors->any())
-<div class="notification is-danger">
-    <ul>
-        @foreach ($errors->all() as $error)
-
-        <li>{{$error}}</li>
-
-        @endforeach
-    </ul>
-</div>
-@endif
+@include('error')
 
 @endsection

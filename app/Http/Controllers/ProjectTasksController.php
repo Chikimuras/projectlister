@@ -25,7 +25,6 @@ class ProjectTasksController extends Controller
 
         $project->addTask($attributes);
         
-
         return back();
 
     }

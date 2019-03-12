@@ -22,7 +22,7 @@
     <div class="container">
         <nav class="nav">
             <div class="nav-left">
-                <a class="nav-item" href="../home">
+                <a class="nav-item" href="/">
                     <h1 class="title">Project</h1>
                     <h2 class="subtitle">Lister</h2>
                 </a>
@@ -52,7 +52,7 @@
             <!-- This "nav-menu" is hidden on mobile -->
             <!-- Add the modifier "is-active" to display it on mobile -->
             <div class="nav-right nav-menu">
-                <a class="nav-item" href="home">
+                <a class="nav-item" href="/">
                     Home
                 </a>
                 <a class="nav-item" href="projects">
